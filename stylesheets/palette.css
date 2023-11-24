@@ -1,0 +1,44 @@
+:root{
+    --color-primary:#90DDF0;
+    --color-secondary: #07393C;
+    --color-tertiary: #181717;
+    --color-quaternary: rgb(72, 69, 69);
+}
+
+.dark-mode{
+    --color-primary: #0A090C;
+    --color-secondary: #2C666E;
+    --color-tertiary: #d5dfe1;
+}
+
+.bg-primary{
+    background-color: var(--color-primary);
+}
+
+.fg-primary{
+    color: var(--color-primary);
+}
+
+.bg-secondary{
+    background-color: var(--color-secondary);
+}
+
+.fg-secondary{
+    color: var(--color-secondary);
+}
+
+.bg-tertiary{
+    background-color: var(--color-tertiary);
+}
+
+.fg-tertiary{
+    color: var(--color-tertiary);
+}
+
+.bg-quaternary{
+    background-color: var(--color-quaternary);
+}
+
+.fg-quaternary{
+    color: var(--color-quaternary);
+}

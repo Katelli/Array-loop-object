@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/utility.css">
+    <link rel="stylesheet" href="stylesheets/palette.css">
+
+    <script defer src="main.js"></script>
+
+    <title>Arrays, Loops & Objects</title>
+</head>
+<body class="bg-secondary">
+    <header class="flex flex-row justify-between align-it-center">
+        <h1 class="fg-primary">PlayerCard Maker</h1>
+
+        <div class="flex flex-row">
+            <div id="icon" class="icon-light"></div>
+            <button id="mode" class="bg-primary fg-tertiary">Dark Mode</button>
+        </div>
+    </header>
+
+    <div class="buffer bg-primary"></div>
+
+    <section class="cardMaker min-h-100 bg-primary fg-tertiary">
+
+        <div id="form" class="flex flex-col align-it-center">
+    
+            <label for="name">UserName</label>
+            <input type="text" id="name" autocomplete="off">
+            <div class="flex">
+                <button id="join">Join</button>
+            </div>
+        </div>
+    
+        <ul id="users" class="flex justify-around align-it-center"></ul>
+    
+        <ul id="players" class="flex flex-row-wrap justify-around gap-low"></ul>
+
+    </section>
+
+    <div class="buffer"></div>
+
+    <section class="game bg-primary fg-tertiary">
+        <h2>Let's set up a game here someday!</h2>
+    </section>
+    
+    <footer class="flex justify-center align-it-center fg-primary">
+        <h3>Made By Kat</h3>
+    </footer>
+</body>
+</html>

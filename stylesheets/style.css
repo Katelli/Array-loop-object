@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+}
+
+header{
+    margin: 10px;
+}
+
+#users{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    background-color: rgb(72, 69, 69);
+    color: aliceblue;
+    min-height: 10vh;
+}
+
+#players{
+    list-style: none;
+    text-align: center;    
+    margin: 10px;
+    padding: 0px;
+}
+
+.playerCard1{
+    background-color: aquamarine;
+    width: 30vw;
+}
+
+.playerCard2{
+    background-color: coral;
+    width: 30vw;
+}
+
+.playerCard3{
+    background-color: cornflowerblue;
+    width: 30vw;
+}
+
+.playerCard4{
+    background-color: palevioletred;
+    width: 30vw;
+}
+
+.playerCard5{
+    background-color: palegreen;
+    width: 30vw;
+}
+
+.playerCard6{
+    background-color: lavender;
+    width: 30vw;
+}
+
+.icon{
+    content: url('https://api.iconify.design/ion/person-circle-sharp.svg?color=%23333&width=100&height=100');
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.game{
+    min-height: 50vh;
+    text-align: center;
+}
+
+.buffer{
+    min-height: 10vh;
+}
+
+.icon-light{
+    content: url('https://api.iconify.design/fa/sun-o.svg?color=%2390ddf0&width=50&height=50');
+}
+
+.icon-dark{
+    content: url('https://api.iconify.design/game-icons/moon.svg?color=%230a090c&width=50&height=50');
+}
+
+#mode{
+    height: 50px;
+    width: 70px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+footer{
+    min-height: 10vh;
+}
