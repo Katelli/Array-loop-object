@@ -10,7 +10,6 @@ function createNewUser() {
         liElement.innerHTML = `
             <div id="user ${liNumber+1}">
                 <p> ${joinedName}</p>
-                <button>Log out</button>
             </div>
         `
         joinedList.append(liElement)
