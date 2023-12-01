@@ -21,13 +21,6 @@ function createNewUser() {
         inputName.value = ""
     }
 
-    function deleteUser() {
-        liElement.remove()
-    }
-    
-    let deleteButton = liElement.querySelector("button")
-    deleteButton.addEventListener("click", deleteUser)
-    
     let player1 = {
         id: 1,
         playerScore: 0,
