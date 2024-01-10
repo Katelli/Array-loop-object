@@ -1,3 +1,21 @@
+//Darkmode
+function DarkFunction() {
+    let element = document.body;
+    let icon = document.getElementById("icon");
+    let mode = document.getElementById("mode");
+    element.classList.toggle("dark-mode");
+    icon.classList.toggle("icon-dark");
+    if (mode.textContent === "Dark Mode") {
+        mode.textContent = "Light Mode";
+      } else {
+        mode.textContent = "Dark Mode";
+      }
+}
+
+let buttonDark = document.querySelector("#mode")
+buttonDark.addEventListener("click", DarkFunction)
+
+//PlayerCards
 let joinedList = document.querySelector("#users")
 
 function createNewUser() {
@@ -95,18 +113,11 @@ function createNewUser() {
 let addUserButton = document.querySelector("#join")
 addUserButton.addEventListener("click", createNewUser)
 
-function DarkFunction() {
-    let element = document.body;
-    let icon = document.getElementById("icon");
-    let mode = document.getElementById("mode");
-    element.classList.toggle("dark-mode");
-    icon.classList.toggle("icon-dark");
-    if (mode.textContent === "Dark Mode") {
-        mode.textContent = "Light Mode";
-      } else {
-        mode.textContent = "Dark Mode";
-      }
-}
 
-let ButtonDark = document.querySelector("#mode")
-ButtonDark.addEventListener("click", DarkFunction)
+//Roulette
+function getRandomNumber(min, max){
+    min = Math.ceil(min)
+    max = Math.floor(max)
+
+    document.getElementById("temp").textContent = Math.floor(Math.random() * (max - min + 1) + min)
+}
