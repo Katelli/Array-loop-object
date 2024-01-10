@@ -28,7 +28,6 @@ function createNewUser() {
         liElement.innerHTML = `
             <div id="user ${liNumber+1}">
                 <p> ${joinedName}</p>
-                <button>Log out</button>
             </div>
         `
         joinedList.append(liElement)
@@ -39,13 +38,6 @@ function createNewUser() {
         inputName.value = ""
     }
 
-    function deleteUser() {
-        liElement.remove()
-    }
-    
-    let deleteButton = liElement.querySelector("button")
-    deleteButton.addEventListener("click", deleteUser)
-    
     let player1 = {
         id: 1,
         playerScore: 0,
